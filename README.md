@@ -1,7 +1,7 @@
 # ITRoadMap
 ## Backend Software Engineer
 ## 1. Source Control
-    - Git
+- Git
 pull code from remote repository
     ```
     git pull origin master
