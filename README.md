@@ -2,7 +2,7 @@
 ## Backend Software Engineer
 ## 1. Source Control
     - Git
-      Example: pull code from remote repository
+pull code from remote repository
     ```
     git pull origin master
     ```
