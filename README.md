@@ -1,9 +1,9 @@
 # ITRoadMap
 ## Backend Software Engineer
-1. Source Control
+## 1. Source Control
     - Git
       Example: pull code from remote repository
-   ```
+    ```
     git pull origin master
     ```
    push code to remote repository
@@ -37,7 +37,7 @@
     - Github it's the same git but with more features
     - Gitlab it's the same git but with more features
     - Bitbucket it's the same git but with more features
-2. Programming Language
+## 2. Programming Language
     - C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions. It has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computer architectures that range from supercomputers to PLCs and embedded systems.
     - C# is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed around 2000 by Microsoft within its .NET initiative and later approved as a standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2018). Mono is the name of the free and open-source project to develop a compiler and runtime for the language. C# is one of the programming languages designed for the Common Language Infrastructure.
     - C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.
@@ -55,7 +55,7 @@
     - Dart is a client-optimized programming language for apps on multiple platforms. It is developed by Google and is used to build mobile, desktop, backend, and web applications. Dart is an object-oriented, class-based, garbage-collected language with C-style syntax. Dart can compile to either native code or JavaScript. It supports interfaces, mixins, abstract classes, reified generics, static typing, and a sound type system.
     - Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as both a programming language and a scripting language for the Java Platform, is compiled to Java virtual machine (JVM) bytecode, and interoperates seamlessly with other Java code and libraries. Groovy uses a curly-bracket syntax similar to Java's. Groovy supports closures, multiline strings, and expressions embedded in strings. Much of Groovy's power lies in its AST transformations, triggered through annotations.
     - Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. It was the main programming language supported by Apple for macOS, iOS, and their respective application programming interfaces (APIs), Cocoa and Cocoa Touch, until the introduction of Swift in 2014. The language was originally developed in the early 1980s. It was selected as the main language used by NeXT for its NeXTSTEP operating system, from which macOS and iOS are derived. Generic programming was added to Objective-C and Cocoa in 2014, improving the type system to its modern form. Apple intended to make Swift available as an alternative to Objective-C, exclusively for Cocoa development, within Apple's operating systems and APIs, and later made it open source, allowing its use on other systems as well. it's apply to iOS and macOS development.
-3. Data Structure
+## 3. Data Structure
     - Array: storage data in a contiguous memory location with the same type. ex: `int[] arr = new int[10];`.
     ```
     In Java, array is a fixed size data structure. default lengh of array is 10. It's will be increase when you add more element to array.
@@ -442,7 +442,7 @@
     - AVL Tree: a self-balancing binary search tree. ex: `AVLTree<Integer> avlTree = new AVLTree<>();`
     - B-Tree: a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. ex: `BTree<Integer> bTree = new BTree<>();`
     - B+ Tree: a tree data structure in which each internal node can have more than two children. ex: `BPlusTree<Integer> bPlusTree = new BPlusTree<>();`
-4. Algorithm
+## 4. Algorithm
     - Sorting
         - Bubble Sort
         - Selection Sort
@@ -498,7 +498,7 @@
         - Karger’s algorithm for Minimum Cut | Set 1 (Introduction and Implementation)
         - Karger’s algorithm for Minimum Cut | Set 2 (Analysis and Applications)
         - Karger’s algorithm for Minimum Cut | Set 3 (Implementation)
-5. Database
+## 5. Database
     - SQL
         - MySQL
         - PostgreSQL
@@ -556,7 +556,7 @@
         - Amazon RDS for PostgreSQL with the PostgreSQL-compatible edition of Amazon Aurora Serverless
         - Amazon RDS for MySQL
         - Amazon RDS for MySQL with the MySQL-compatible edition of Amazon Aurora Serverless
-6. Web
+## 6. Web
 - HTML refers to HyperText Markup Language. It is used to structure a web page and its content. ex: `<html></html>`
 - CSS refers to Cascading Style Sheets. It is used to style a web page and its content. ex: `<style></style>`
 - JavaScript is a programming language that can be used to implement complex features on web pages. ex: `<script></script>`
@@ -565,7 +565,7 @@
 - React is a JavaScript library for building user interfaces. ex: `<script></script>`
 - Vue is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. ex: `<script></script>`
 - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. ex: `<script></script>`
-7. Framework
+## 7. Framework
 Java framework
 - Spring is an open source framework created to address the complexity of enterprise application development. One of the chief advantages of the Spring framework is its layered architecture, which allows you to be selective about which of its components you use while also providing a cohesive framework for J2EE application development.
 - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run". We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need minimal Spring configuration.
@@ -597,7 +597,15 @@ Java framework
 - Spring for Alibaba Cloud (spring-cloud-alibaba) is an extension of Spring Cloud that lets you use Alibaba Cloud's features with your Spring applications.
 - Spring for Kubernetes (spring-cloud-kubernetes) is an extension of Spring Cloud that lets you use Kubernetes' features with your Spring applications.
 - Spring for Apache Tomcat (spring-boot-starter-tomcat) is an extension of Spring Boot that lets you use Apache Tomcat as embedded servlet container.
-8. Testing
+Typescript framework
+- Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
+- NestJS is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Progamming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+- NativeScript is an open-source framework for building native iOS and Android apps. Use web skills, like Angular and Vue.js, FlexBox and CSS, and get native UI and performance on iOS and Android.
+Golang framework
+- Gin is a web framework written in Go (Golang). It features a martini-like API with much better performance, up to 40 times faster. If you need smashing performance, get yourself some Gin.
+- Beego is an open-source, high-performance web framework for the Go programming language.
+- Echo is a high performance, extensible, minimalist web framework for Go (Golang).
+## 8. Testing
 - JUnit is a unit testing framework for the Java programming language. JUnit has been important in the development of test-driven development, and is one of a family of unit testing frameworks which is collectively known as xUnit that originated with SUnit.
 - Mockito is a mocking framework that tastes really good. It lets you write beautiful tests with a clean & simple API. Mockito doesn’t give you hangover because the tests are very readable and they produce clean verification errors.
 - TestNG is a testing framework for the Java programming language created by Cédric Beust and inspired by JUnit and NUnit. The design goal of TestNG is to cover a wider range of test categories: unit, functional, end-to-end, integration, etc., with more powerful and easy-to-use functionalities.
@@ -612,7 +620,7 @@ Java framework
 - Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
 - JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike.
 - JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java 8 and above, as well as enabling many different styles of testing.
-9. DevOps
+## 9. DevOps
 - Jenkins is an open source automation server written in Java. Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery.
 - Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
 - Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
@@ -646,7 +654,7 @@ Java framework
 - AWS CloudWatch Contributor Insights for Lambda enables you to identify the most frequently invoked functions and helps you understand the overall traffic trends of your Lambda functions.
 - AWS CloudWatch Contributor Insights for API Gateway enables you to identify the most frequently accessed APIs and helps you understand the overall traffic trends of your API Gateway APIs.
 - AWS CloudWatch Contributor Insights for Network Load Balancers enables you to identify the most frequently accessed targets and helps you understand the overall traffic trends of your Network Load Balancers.
-10. Cloud
+## 10. Cloud
 - Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
 - Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.
 - Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.
@@ -662,7 +670,7 @@ Java framework
 - CloudBees is a provider of continuous integration (CI) and continuous delivery (CD) automation software services.
 - Cloudflare, Inc. is an American web infrastructure and website security company that provides content delivery network services, DDoS mitigation, Internet security, and distributed domain name server services.
 - Cloudinary is a cloud-based image and video management solution.
-11. Security
+## 11. Security
 - Security is freedom from, or resilience against, potential harm or other unwanted coercive change from external forces.
 - Information security, sometimes shortened to infosec, is the practice of protecting information by mitigating information risks.
 - Computer security, cybersecurity or information technology security is the protection of computer systems and networks from the theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.
@@ -694,19 +702,47 @@ Java framework
 - Security risk management is the identification of an organization's assets (including people, buildings, machines, systems and information assets), followed by the development, documentation, and implementation of policies and procedures for protecting these assets.
 - Security risk assessment is a scientific process of evaluating the security risks in a business.
 - Security risk analysis is a part of risk management process and is a mandatory task for any organization.
-12. Design Pattern
+## 12. Design Pattern
 - A design pattern is a general repeatable solution to a commonly occurring problem in software design.
 - A software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design.
-13. Software Architecture
-14. Software Development Process
+## 13. Software Architecture
+## 14. Software Development Process
 - In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design.
 - A software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design.
 - Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems.
 - Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.
-15. Software Development Tools
+## 15. Software Development Tools
 - Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.
 - Software development is a process of writing and maintaining the source code, but in a broader sense, it includes all that is involved between the conception of the desired software through to the final manifestation of the software, sometimes in a planned and structured process.
 - Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.
 - Software development is a process of writing and maintaining the source code, but in a broader sense, it includes all that is involved between the conception of the desired software through to the final manifestation of the software, sometimes in a planned and structured process.
+## 16. OSI model
+- The Open Systems Interconnection model is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology.
+## Rest API and GraphQL
+- REST is an architectural style for developing applications that can be accessed over the network.
+  Example with exposing a REST API using Node.js and Nest.js:
+    ```
+    @Controller('cats')
+    export class CatsController {
+      constructor(private logicService: LogicsService) {}
 
+      @Get()
+      async findAll(): Promise<Cat[]> {
+        return this.logicService.findAll();
+      }
+    }
+    ```
+- GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
+  Example with GraphQL:
+    ```
+    @Resolver(of => Cat)
+    export class LogicResolver {
+      constructor(private logicService: LogicsService) {}
+
+      @Query(returns => [Logic])
+      async logics() {
+        return this.catsService.findAll();
+      }
+    }
+    ```
 ## Frontend Software Engineer
